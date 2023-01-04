@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="Semantic.html">Semantic</a></li>
+                <li><a href="audio-video.html">media</a></li>
+            </ul>
+        </nav>
+        <h2>Welcome to see the form</h2>
+    </header>
+    
+    <form>
+        <label for="name">Your name
+            <input type="name" type="text" placeholder="Your name">
+        </label>
+        
+        <label for="email">Your Email
+            <input type="email" type="email" placeholder="Your email">
+        </label>
+        <label for="phone">Your mobile 
+            <input type="phone" type="number" placeholder="Your phone number">
+        </label>
+        <fieldset>
+            <legend>pick 1 image</legend>
+            <label for="pasport">
+                <input type="radio" name="image" id="pasport size">
+                pasport
+            </label>
+            <label for="full pic">
+                <input type="radio" name="image" id="full pic">
+                full pic
+            </label>
+            <label for="small pic">
+                <input type="radio" name="image" id="small pic">
+                small pic
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select one or more pic</legend>
+            <label for="samll">
+                <input type="checkbox" name="pic" id="small">
+                small
+            </label>
+            <label for="full">
+                <input type="checkbox" name="pic" id="full">
+                full
+            </label>
+            <label for="over size">
+                <input type="checkbox" name="pic" id="over size">
+                over size
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>special </legend>
+            <textarea name="" id="" cols="70" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="reset">
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>
